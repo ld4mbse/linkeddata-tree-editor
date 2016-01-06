@@ -1,0 +1,31 @@
+{
+  "name": "TreeEditor",
+  "private": true,
+  "devDependencies": {},
+  "license": "BSD",
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1", 
+    "compression": "^1.6.0",
+    "cookie-parser": "^1.4.0",
+    "dateformat": "^1.0.11",
+    "debug": "^2.2.0",
+    "email-validator": "^1.0.3",
+    "express": "^4.13.3",
+    "fs-extra": "^0.26.2",
+    "http-errors": "^1.3.1",
+    "morgan": "^1.6.1",
+    "node-uuid": "^1.4.7",
+    "portscanner": "^1.0.0",
+    "request": "^2.65.0",
+    "serve-favicon": "^2.3.0",
+    "sparql": "^0.1.3",
+    "unpipe": "^1.0.0",
+    "jairo-parser": "*"
+  }
+}

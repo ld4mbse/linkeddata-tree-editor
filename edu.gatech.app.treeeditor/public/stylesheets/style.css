@@ -1,0 +1,74 @@
+/*******************************************************************
+  * Copyright (c) 2015  Georgia Institute of Technology.
+  *
+  * All rights reserved. This program and the accompanying materials
+  * are made available under the terms of the BSD 3-Clause License
+  * which accompanies this distribution. The BSD 3-Clause License is 
+  * available at https://opensource.org/licenses/BSD-3-Clause 
+  *   
+  *********************************************************************/
+  
+body {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.CodeMirror {
+  height: auto !important;
+}
+
+
+a {
+  color: #00B7FF;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {
+    display: none !important;
+}
+
+.container-full {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.container-full-head {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#status-area .flash_message {
+    padding: 5px;
+    color: green;
+}
+
+.part
+{
+  width: 32px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Required to make a span sizable */
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("part.png");
+  background-position: 0 0;
+}
+
+.reference
+{
+  width: 32px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  display: inline-block; /* Required to make a span sizable */
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url("reference.png");
+  background-position: 0 0;
+}

@@ -1,0 +1,1 @@
+delete {  <http://example.com/Subject>  <http://example.com/Predicate>  <http://example.com/Object> }  where {}
